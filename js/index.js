@@ -1,8 +1,6 @@
 var slideshowBodyImg=document.querySelectorAll('.slideshow-body img');
 var dotDiv=document.querySelectorAll('.dot div');
 var steeringYoke=document.querySelectorAll('.steering-yoke div');
-var flag=0;
-var flag1=3;
 var flag2=0;
     function qingshu(){
         for (let j = 0; j < slideshowBodyImg.length; j++) {
@@ -14,6 +12,24 @@ var flag2=0;
         slideshowBodyImg[index1].style.display='block';
         dotDiv[index1].style='background-color: white;border: 1px solid black;';
     }
+    //点击下一张图片
+    steeringYoke[0].onclick=function(){
+        flag2++;
+        qingshu();
+        fuqu(flag2);
+        if(flag2==3){
+            flag2=-1;
+        }
+    } 
+    //点击上一张图片
+    steeringYoke[1].onclick=function(){
+        if(flag2==-1){
+            flag2=3;
+        }
+        qingshu();
+        fuqu(flag2);
+        flag2--; 
+    }
     //定时更换图片
     setInterval(()=>{
             flag2++;
@@ -23,24 +39,6 @@ var flag2=0;
                 flag2=-1;
             }
     },2000);
-    //点击下一张图片
-    steeringYoke[0].onclick=function(){
-        flag++;
-        qingshu();
-        fuqu(flag);
-        if(flag==3){
-            flag=-1;
-        }
-    } 
-    //点击上一张图片
-    steeringYoke[1].onclick=function(){
-        if(flag1==-1){
-            flag1=3;
-        }
-        qingshu();
-        fuqu(flag1);
-        flag1--; 
-    }
     //鼠标移入移出事件
     for (let index = 0; index < dotDiv.length; index++) {
         dotDiv[index].onclick=function(){
