@@ -1,0 +1,24 @@
+#canvas1{
+    border: 5px solid red;
+    position: absolute;
+}   
+iframe{
+    /* overflow: hidden; */
+    
+}
+body{}
+.box{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    
+}
+.box>div{
+    /* height: 40px; */
+    border: 2px solid red;
+}
+.box>button{
+    /* display: inline; */
+    height: 40px;
+}
