@@ -1,0 +1,90 @@
+#footer{
+    height: 435px;
+    width: 1518.4px;
+    background-color: #2a2a2a;
+    margin: 0 auto;
+}
+#footer h2{
+    padding-top: 30px;
+    text-align: center;
+    color: white;
+    font-weight: 100;
+}
+.footer-ul{
+    width: 100%;
+    height: 360px;
+}
+.footer-ul ul{
+    float: left;
+    width: 100px;
+    height: 290px;
+    color: white;
+    
+}
+.footer-ul1{
+    margin-left: 208px;
+    margin-top: 20px;
+}
+.footer-ul1 li,.footer-ul2 li,.footer-ul3 li,.footer-ul4 li{
+    margin-top: 15px;
+    color: #777;
+}
+.footer-ul2{
+    margin-left: 88px;
+    margin-top: 20px;
+}
+.footer-ul3{
+    margin-left: 48px;
+    margin-top: 20px;
+}
+.footer-div{
+    width: 100%;
+    height: 54px;
+    background-color: #2a2a2a;
+}
+.footer-ul4{
+    margin-left: 48px;
+    margin-top: 20px;
+}
+.footer-div div{
+    margin-left: 10%;
+    width: 80%;
+    height: 54px;
+    border-top: 1px solid #353535;
+    color: white;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.footer-ul .li1{
+    color: white;
+}
+.guanzhu{
+    width: 40%;
+    height: 180px;
+    float: right;
+    margin-top: 35px;
+}
+.guanzhu .kuang{
+    width: 10px;
+    height: 146px;
+    border-left: 1px solid #555;
+    display: inline-block;
+    margin-top: 10px;
+}
+.guanzhu .saoma{
+    float: right;
+    margin-right: 380px;
+}
+.guanzhu .saoma img{
+    width: 90px;
+    height: 90px;
+    margin-left: 90px;
+    margin-top: 5px;
+}
+.guanzhu .saoma h3,h6{
+    color: white;
+}
+.guanzhu .saoma h3{
+    margin-left: 5px;
+}

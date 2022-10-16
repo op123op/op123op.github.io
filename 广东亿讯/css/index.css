@@ -1,0 +1,125 @@
+.main-item1{
+    height: 238px;
+    width: 1500px;
+}
+.main-item1-p{
+    height: 44px;
+    width: 170px;
+    line-height: 44px;
+    margin-left: 127px;
+    color: #666;
+}
+.main-item1 ul{
+    margin-left:127px;
+    height: 192px;
+}
+.main-item1 ul li{
+    height: 192px;
+    width: 309px;
+    border-bottom: 1px solid #d6d6d6;
+    
+    float: left;
+}
+.main-item1 ul li div{
+    width: 100%;
+    height: 154px;
+    border-right: 1px solid #d6d6d6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-item1 ul li h3{
+    height: 50px;
+    line-height: 50px;
+    color: #555;
+}
+.main-item1 ul li p{
+    height: 47px;
+    color: #666;
+}
+.main-item2{
+    margin-left:127px;
+}
+.main-item2-div{
+    margin-top: 8px;
+    height: 82px;
+    overflow: hidden;
+    
+}
+
+.main-item2-div span{
+    display: inline-block;
+    width: 10px;
+    height: 38px;
+    background-color: #49bd74;
+    float: left;
+}
+.main-item2-div h2{
+    text-indent: 20px;
+    margin-top: 3px;
+    color: #666;
+}
+.main-item2 ul{
+    width: 100%;
+    height: 648px;
+}
+.main-item2 ul li{
+    width: 585px;
+    height: 214px;
+    float: left;
+}
+.main-item2 ul li img{
+    float: left;
+}
+.main-item2 ul li div{
+    width: 224px;
+    height: 100%;
+    margin-left: 30px;
+    float: left;
+}
+.main-item2 ul li .jiaoyu{
+    font-weight: 400;
+    font-size: 20px;
+    color: #777;
+    overflow: hidden;
+}
+.main-item2 ul li div ul{
+    width: 100%;
+    height: 120px;
+    margin-top: 10px;
+}
+.main-item2 ul li div ul li{
+    width: 100%;
+    height: 25px;
+}
+.main-item2 ul li div ul li .dian{
+    display: inline-block;
+    width: 12px;
+    height: 100%;
+    font-weight: 800;
+    color: #555;
+}
+.main-item3{
+    width: 100%;
+    height: 550px;
+    background-color: #f5f5f5;
+}
+.main-item3-bk{
+    width: 100%;
+    height: 32px;
+    border-top: 1px solid #d6d6d6;
+}
+.main-item3-Ul{
+    height: 100%;
+}
+.main-item3 .main-item2 ul div,.main-item3 .main-item2 ul div li{
+    height: 150px;
+}
+.main-item3 .main-item2 ul div li{
+    height: 120px;
+    word-wrap:break-word;word-break:break-all;overflow:hidden;
+    color: #5b5b5b;
+}
+.main-item4{
+    height: 22px;
+}

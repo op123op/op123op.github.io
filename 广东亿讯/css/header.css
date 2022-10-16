@@ -1,0 +1,44 @@
+#header{
+    width: 100%;
+    height: 90px;
+}
+#header ul,.herader-img{
+    float: left;
+}
+.header-img{
+    width: 576px;
+    float: left;
+}
+.header-img img{
+    height: 90px;
+    margin-left: 125px;
+}
+.header-img h2{
+    display: inline-block;
+    height: 90px;
+    line-height: 90px;
+}
+#header li{
+    height: 87px;
+    width: 130px;
+    float: left;
+    text-align: center;
+    line-height: 90px;
+    position: relative;
+}
+#header li:hover span{   
+    position: absolute;
+    bottom:  -1px;
+    right: 40%;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    /* 右三角，使用子绝父相制作，移动到盒子边上即可 */
+    border-bottom-color: #0081d4;
+}
+#header li:hover{ 
+    border-bottom: 3px solid #0081d4;
+}
+#header li a{
+    color: black;
+}

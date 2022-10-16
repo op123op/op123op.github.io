@@ -1,0 +1,86 @@
+#header{
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    width: 4rem;
+}
+.head{
+    width: 4rem;
+    height: 0.6rem;
+    display: flex;
+    
+}
+.head .box1{
+    width: 33%;
+    color: white;
+    font-size: 0.4rem;
+    margin: 0.1rem 0 0 0.15rem;
+}
+.head .box2{
+    font-size: 0.3rem;
+    color: white;
+    font-family: '华文琥珀';
+    line-height: 0.6rem;
+}
+.head .box3{
+    width: 1.53rem;
+    font-size: 0.4rem;
+    color: white;
+    text-align: right;
+    margin: 0.1rem 0.1rem 0 0;
+}
+
+.nav{
+    width: 4rem;
+    height: 0.5rem;
+    display: flex;
+    position: relative;
+    
+}
+.nav ul{
+	overflow-x: auto; 	/* 设置x轴可滑动 */
+	white-space: nowrap; /* 元素不换行 */
+}
+/* 隐藏滚动条 */
+ul::-webkit-scrollbar {
+	display: none;
+}
+.nav ul li{
+    color: rgba(255, 255, 255, 0.797);
+    font-size: 0.2rem;
+    height: 0.5rem;
+    padding: 0 0.15rem 0 0.15rem;
+    line-height: 0.5rem;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+}
+.nav ul li div{
+    position: absolute;
+    left: 50%;
+    bottom: 0rem;
+    transform: translate(-50%);
+    height: 0.02rem;
+    width: 0.3rem;
+    background-color: white;
+    display: none;
+}
+/* .nav ul li:nth-child(1) div{
+    display: block;
+} */
+.nav ul li:hover div{
+    display: block;
+}
+.nav .genduo{
+    position: absolute;
+    right: 0.01rem;
+    top: -0.01rem;
+    color: white;
+    font-size: 0.2rem;
+    z-index: 3;
+    background-color: red;
+    text-align: center;
+    line-height: 0.5rem;
+    width: 0.4rem;
+    height: 100%;
+}
