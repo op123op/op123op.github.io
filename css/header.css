@@ -1,0 +1,100 @@
+.nav{
+    height: 0.84rem;
+    display: flex;
+    position: relative;
+    
+}
+.nav ul{
+	overflow-x: auto; 	/* 设置x轴可滑动 */
+	white-space: nowrap; /* 元素不换行 */
+}
+/* 隐藏滚动条 */
+ul::-webkit-scrollbar {
+	display: none;
+}
+.nav ul li{
+    color: #222222;
+    font-size: 0.31rem;
+    font-weight: 600;
+    height: 0.84rem;
+    padding: 0 0.26rem 0 0.26rem;
+    line-height: 0.84rem;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+}
+.nav ul li div{
+    position: absolute;
+    left: 50%;
+    bottom: 0rem;
+    transform: translate(-50%);
+    height: 0.02rem;
+    width: 0.3rem;
+    background-color: #ff7000;
+    display: none;
+}
+.nav ul li:nth-child(1){
+    color: #fe7000;
+}
+.nav ul li:nth-child(1) div{
+    display: block;
+}
+/* .nav ul li:hover div{
+    display: block;
+} */
+.nav .genduo{
+    position: absolute;
+    right: 0rem;
+    top: -0.01rem;
+    color: #222222;
+    font-size: 0.4rem;
+    z-index: 3;
+    background-color: white;
+    text-align: center;
+    line-height: 0.84rem;
+    width: 0.93rem;
+    height: 100%;
+    box-shadow: -0.001rem 0rem 0rem 0rem #cccccc;
+}
+#header .head{
+    height: 1rem;
+    background-color: #fbfbfb;
+    display: flex;
+}
+#header .head .suosou {
+    width: 4.95rem;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+#header .head .suosou input{
+    width: 4.5rem;
+    height: 0.60rem;
+    border-radius: 0.15rem;
+    background-color: #e9eaeb;
+    text-align: center;
+    line-height: 0.63rem;
+    font-size: 0.3rem;
+}
+#header .head .suosou i{
+    position: absolute;
+    left: 1.42rem;
+    top: 0.28rem;
+    font-size: 0.4rem;
+    color: red;
+}
+#header .head .you{
+    display: flex;
+}
+#header .head .you div{
+    width: 0.92rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#header .head .you i{
+    font-size: 0.56rem;
+}
